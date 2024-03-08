@@ -132,7 +132,9 @@ categories_list=[['Male', 'Female'],
            ['Low', 'Average', 'High']
            ]
 enc = OrdinalEncoder(categories=categories_list)
+
 ```
+
 ```py
 customers_1 = customer_df_cleaned.copy()
 ```
@@ -145,8 +147,6 @@ customers_1[['Gender',
                                                                  'Ever_Married',
                                                                  'Graduated','Profession',
                                                                  'Spending_Score']])
-```
-
 ```
 
 ```py
